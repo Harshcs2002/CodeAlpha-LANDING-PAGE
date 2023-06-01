@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      background-color: #f8f9fa;
+      
+    }
+.heading-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .heading-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .navbar {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #ffffff;
+  }
+
+  .navbar .navbar-nav {
+    justify-content: flex-end;
+  }
+
+  .navbar .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .navbar .nav-link:hover {
+    color: #f8f8f8;
+  }
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .navbar-nav li {
+      margin-right: 10px;
+    }
+    .intro {
+      background-image: url('mac-big-sur-dark.jpeg');
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+    }
+    .intro h1 {
+      font-size: 48px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .intro p {
+      font-size: 24px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .intro button {
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+    .title-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .title-section img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    .title-section h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .btn {
+    border-radius: 50px;
+  }
+  
+
+   .pricing {
+      background-color: #eaeaea;
+      padding: 50px 0;
+      text-align: center;
+    }
+   .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+    .pricing h2 {
+      font-size: 36px;
+    font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .pricing .card {
+      border: none;
+    }
+    .pricing .card-header {
+      background-color: #f8f9fa;
+      border: none;
+    }
+    .pricing .card-body {
+      background-color: #f8f9fa;
+      border-bottom: 2px solid #ced4da;
+    }
+    .pricing .card-body h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .pricing .card-body p {
+      font-size: 18px;
+    }
+    .pricing .card-body button {
+      margin-top: 20px;
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+
+
+    .footer {
+background-color: #007bff;
+    color: #ffffff;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .footer ul {
+      list-style: none;
+      padding: 0;
+    }
+.footer-menu li a {
+    color: #ffffff;
+  }
+
+  .footer-social .social-icons li a {
+    color: #ffffff;
+  }
+    .footer ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Code Alpha</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <div class="intro">
+    <div class="container">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Discover amazing features and products.</p>
+      <button class="btn btn-primary">Subscribe</button>
+    </div>
+  </div>
+
+<div class="heading-section">
+  <div class="container">
+    <h1 class="heading-title",align='center'>Discover Our Titles</h1>
+  </div>
+</div>
+
+  <!-- Title section -->
+
+<div id="features" class="title-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="title-item">
+          <img src="title1.png" alt="Title 1" style="width: 200px;">
+          <h2>Title 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="title-item">
+          <img src="title2.png" alt="Title 2" style="width: 200px;">
+          <h2>Title 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="title-item">
+          <img src="title3.png" alt="Title 3" style="width: 200px;">
+          <h2>Title 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <!-- Price section -->
+
+<div id="pricing" class="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Free</h3>
+              <p class="price">$0/month</p>
+            </div>
+            <div class="card-body">
+              <p>Feature 1</p>
+              <p>Feature 2</p>
+              <p>Feature 3</p>
+              <button class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Basic</h3>
+              <p class="price">$9.99/month</p>
+            </div>
+            <div class="card-body">
+              <p>Feature 1</p>
+              <p>Feature 2</p>
+              <p>Feature 3</p>
+              <button class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Pro</h3>
+              <p class="price">$19.99/month</p>
+            </div>
+            <div class="card-body">
+              <p>Feature 1</p>
+              <p>Feature 2</p>
+              <p>Feature 3</p>
+              <button class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+  <!-- Form  -->
+
+<div id="contact" class="form-container">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <br> <br>
+
+  <!-- footer -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="footer-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="footer-text">© 2023 All rights reserved to Code Alpha.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
